@@ -1,0 +1,120 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.so.*
+*.dylib
+crud-api
+
+# Go build cache
+.cache/
+.go-build/
+dist/
+
+# Test binaries
+*.test
+*.out
+*.cover
+
+# Dependency archives
+*.tar.gz
+*.zip
+
+# Go vendor directory
+vendor/
+
+# Go module files (optional, depends on workflow)
+# go.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+
+# Environment variables
+.env
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Profiling
+*.prof
+*.pprof
+cpu.prof
+mem.prof
+
+# Coverage
+coverage/
+*.coverage
+
+# Build outputs
+bin/
+out/
+
+# Atlas cache
+.atlas/
+migrations/atlas.sum
+
+# Docker artifacts
+.docker/
+docker-compose.override.yml
+
+# IDE specific
+.eslintcache
+package-lock.json
+yarn.lock
+
+# Node modules (if using any frontend tools)
+node_modules/
+
+# Compiled binaries
+/crud-api
+/cmd/*/
+
+# Generated files (if any)
+*.generated.go
+*_gen.go
+
+# Local development
+.local/
+.dev/
+
+# Secrets
+secrets/
+*.key
+*.pem
+encrypted.*
